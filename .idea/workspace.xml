@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12137284-5aca-4ade-b899-57023f5199a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeScripts/TestDemoScript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Config/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/AbTestPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PracticeScripts/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PracticeScripts/TestDemoScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PracticeScripts/TestNavigationCommands.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +43,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "E:/Interview-Preparation/Selenium-Practice/src/test/java",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="TestDemoScript.testDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestNavigationCommands">
+    <configuration name="TestNavigationCommands" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium-Practice" />
       <extension name="coverage">
         <pattern>
@@ -57,8 +64,61 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="PracticeScripts" />
-      <option name="MAIN_CLASS_NAME" value="PracticeScripts.TestDemoScript" />
+      <option name="MAIN_CLASS_NAME" value="PracticeScripts.TestNavigationCommands" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNavigationCommands.testBackNavigation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PracticeScripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PracticeScripts" />
+      <option name="MAIN_CLASS_NAME" value="PracticeScripts.TestNavigationCommands" />
+      <option name="METHOD_NAME" value="testBackNavigation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNavigationCommands.testDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PracticeScripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PracticeScripts" />
+      <option name="MAIN_CLASS_NAME" value="PracticeScripts.TestNavigationCommands" />
       <option name="METHOD_NAME" value="testDemo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNavigationCommands.testForwardNavigation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PracticeScripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PracticeScripts" />
+      <option name="MAIN_CLASS_NAME" value="PracticeScripts.TestNavigationCommands" />
+      <option name="METHOD_NAME" value="testForwardNavigation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -68,7 +128,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestDemoScript.testDemo" />
+        <item itemvalue="TestNG.TestNavigationCommands" />
+        <item itemvalue="TestNG.TestNavigationCommands.testForwardNavigation" />
+        <item itemvalue="TestNG.TestNavigationCommands.testBackNavigation" />
+        <item itemvalue="TestNG.TestNavigationCommands.testDemo" />
       </list>
     </recent_temporary>
   </component>
